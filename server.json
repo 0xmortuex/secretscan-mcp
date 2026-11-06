@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.0xmortuex/secretscan-mcp",
+  "description": "Find committed secrets in a working tree and git history. Findings are always redacted; no raw secret is ever returned.",
+  "repository": {
+    "url": "https://github.com/0xmortuex/secretscan-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "secretscan-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
